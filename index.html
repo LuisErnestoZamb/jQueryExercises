@@ -11,7 +11,7 @@
 	$(document).ready(function() { 
 		$('#pagepiling').pagepiling({
 			menu: '#menu',
-			anchors: ['page1', 'page2', 'page3']
+			anchors: ['page1', 'page2', 'page3', 'page4']
 		});
 	});
 </script>
@@ -31,6 +31,10 @@
 	background-image: url(images/b03.jpg);
 	padding: 6% 0 0 0;
 }
+#section4{
+	background-image: url(images/b04.jpg);
+	padding: 6% 0 0 0;
+}
 #section3 h1{
 	color: #000;
 }
@@ -43,14 +47,35 @@
 
 	<ul id="menu">
 		<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Profile</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Contact</a></li>
+		<li data-menuanchor="page2"><a href="#page2">Services</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Events</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Contact</a></li>
 	</ul>
 
     <div id="pagepiling">
         <div class="section" id="section1">Some section</div>
-        <div class="section" id="section2">Some section</div>
-        <div class="section" id="section3">Some section</div>
+        <div class="section" id="section2">
+
+<li>Precision wheel truing and hub adjustments</li>
+<li>Shifter and derailleur adjustments</li>
+<li>Front and rear brake adjustments</li>
+<li>Bottom bracket adjustment</li>
+<li>Headset adjustment</li>
+<li>Lubrication of cables and pivot points</li>
+<li>Lubrication of drivetrain</li>
+<li>Light frame and wheel cleaning</li>
+
+
+
+</div>
+        <div class="section" id="section3">
+        	            <a class="twitter-timeline"  href="https://twitter.com/search?q=bicycle%20ride" data-widget-id="730042041002950657">Tweets sobre bicycle ride</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+		</div>
+        <div class="section" id="section4">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.8576633117314!2d-79.37583417715743!3d43.6719299926829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb538b37944d%3A0x3667dfe371c21f7f!2sSherbourne+Station!5e0!3m2!1sen!2sca!4v1462890363289" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
     </div>
 </body>
 </html>
