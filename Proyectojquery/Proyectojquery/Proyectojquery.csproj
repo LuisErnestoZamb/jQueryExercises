@@ -67,7 +67,6 @@
     <Content Include="bower_components\pagePiling.js\.bower.json" />
     <Content Include="bower_components\pagePiling.js\bower.json" />
     <Content Include="bower_components\pagePiling.js\README.md" />
-    <Content Include="images\Thumbs.db" />
     <None Include="Properties\PublishProfiles\luisjqueryproject - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\luisjqueryproject - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
