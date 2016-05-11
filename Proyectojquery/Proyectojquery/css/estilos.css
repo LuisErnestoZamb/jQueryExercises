@@ -83,6 +83,7 @@
 h1 {
     color: #DB6D00;
     font-size: 28px;
+    /* For template design purposes, "H1" is reduced top at 6px. */
     margin-top: 6px;
 }
 
@@ -93,17 +94,19 @@ h1 {
 }
 
 #infoService {
+    /* White div with some alpha, and radius corner. */
     display: inline-block;
-    /* overflow: auto; */
     width: 450px;
     height: 400px;
     margin-top: -280px;
     text-align: left;
     background-color: rgba(255, 255, 255, 0.90);
     border-radius: 8px;
-    /* border: 1px solid #DB6D00; */
     padding: 14px;
     padding-top: 0px;
+    /* No used */
+    /* overflow: auto; */
+    /* border: 1px solid #DB6D00; */
 }
 
 #contacto {
